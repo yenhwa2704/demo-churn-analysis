@@ -39,8 +39,8 @@ retail-customer-analysis/
 
 ## 🛠️ Tools & Techniques
 - Python (Pandas, Seaborn, scikit-learn)
-- SQL (BigQuery/SQLite)
-- Power BI / Tableau
+- Data: SQLite / csv
+- Looker Studio
 - Git, Markdown
 - Dataset: [E-commerce Customer Data For Behavior Analysis](https://www.kaggle.com/datasets/shriyashjagtap/e-commerce-customer-for-behavior-analysis/data)
 
