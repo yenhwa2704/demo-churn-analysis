@@ -20,32 +20,27 @@ A side project (4-6 weeks) that explores customer behaviour from a retail datase
 ```plain text
 retail-customer-analysis/
 ├── data/
-│   ├── raw/                # 原始資料
-│   └── processed/          # 清理後資料
+│   ├── raw/                # original data
+│   └── processed/          # processed data
 ├── notebooks/
-│   ├── 01_EDA.ipynb        # 資料探索
-│   └── 02_Modeling.ipynb   # 模型建構（如分群）
-├── dashboard/
-│   └── dashboard.pbix      # Power BI / Tableau / Streamlit
-├── src/                    # 放置模組化程式碼（如自訂函數）
+│   ├── 01_EDA.ipynb
+│   └── 02_Modeling.ipynb
+├── src/                    # modular code
 │   └── utils.py
 ├── reports/
-│   └── insights.md         # 分析報告 / 商業洞察
+│   └── insights.md         # Business Reports
 ├── README.md
-├── requirements.txt        # 套件需求
+├── requirements.txt
 └── .gitignore
 ```
 
 
 ## 🛠️ Tools & Techniques
 - Python (Pandas, Seaborn, scikit-learn)
-- SQL (BigQuery/SQLite)
-- Power BI / Tableau
+- Data: SQLite / csv
+- Looker Studio
 - Git, Markdown
 - Dataset: [E-commerce Customer Data For Behavior Analysis](https://www.kaggle.com/datasets/shriyashjagtap/e-commerce-customer-for-behavior-analysis/data)
-
-## 📈 Preview
-*(Screenshot of dashboard here)*
 
 ## ✍️ Author
 Edward Yen-Hua Chang
